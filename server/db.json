@@ -1,0 +1,125 @@
+{
+    "products": [
+        {
+            "name": "alireza",
+            "brand": "برند تست",
+            "image": [
+              "1cb0abd374486a8038b9a8c78e5ed6b8",
+              "99874537d939b76572bdf0fd26470eb3"
+            ],
+            "thumbnail": "030fee34c5b2e05e30fcaaf87aa73a62",
+            "price": 10275000,
+            "quantity": 8,
+            "createdAt": 1643373068134,
+            "id": 1,
+            "category": 2,
+            "subcategory": 1,
+            "description": "<p>تستتتتت</p>"
+          },
+          {
+            "name": "bahram",
+            "brand": "برند تست",
+            "image": [
+              "1cb0abd374486a8038b9a8c78e5ed6b8",
+              "99874537d939b76572bdf0fd26470eb3"
+            ],
+            "thumbnail": "030fee34c5b2e05e30fcaaf87aa73a62",
+            "price": 10275000,
+            "quantity": 8,
+            "createdAt": 1643373068134,
+            "id": 2,
+            "category": 2,
+            "subcategory": 1,
+            "description": "<p>تستتتتت</p>"
+          },
+          {
+            "name": "mamad",
+            "brand": "برند تست",
+            "image": [
+              "1cb0abd374486a8038b9a8c78e5ed6b8",
+              "99874537d939b76572bdf0fd26470eb3"
+            ],
+            "thumbnail": "030fee34c5b2e05e30fcaaf87aa73a62",
+            "price": 10275000,
+            "quantity": 8,
+            "createdAt": 1643373068134,
+            "id": 3,
+            "category": 2,
+            "subcategory": 1,
+            "description": "<p>تستتتتت</p>"
+          }
+    ],
+    "category": [
+      {
+        "id": 1,
+        "name": "bahram",
+        "icon": "030fee34c5b2e05e30fcaaf87aa73a62"
+      },
+      {
+        "id": 2,
+        "name": "mamad",
+        "icon": "d55ab5b97230878d1c15aac5aa6af518"
+      }
+    ],
+    "subcategory": [
+      {
+        "id": 1,
+        "name": "ساب کتگوری 1",
+        "category": 1
+      },
+      {
+        "id": 2,
+        "name": "سابکتگوری 2",
+        "category": 1
+      }
+    ],
+    "orders": [
+      {
+        "username": "پدرام",
+        "lastname": "صادقی",
+        "address": "تهران میدان آزادی ",
+        "phone": "09032855606",
+        "expectAt": 1648771200000,
+        "products": [
+          {
+            "id": 4,
+            "name": "MacBook Air MGN63 2020",
+            "count": "1",
+            "price": "10275000",
+            "image": "b7b1754d9e82674138512445576bba26"
+          }
+        ],
+        "prices": 10275000,
+        "delivered": "false",
+        "createdAt": 1646158398160,
+        "id": 1
+      }
+    ],
+    "whoami": {
+      "name": "Jamshid Mashayekhi",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    "users": [
+      {
+        "name": "Alireza Gharghabi",
+        "username": "admin",
+        "password": "admin",
+        "role": "admin"
+      }
+    ],
+    "protection": {
+      "products.get": false,
+      "orders.post": false,
+      "products.post": false,
+      "orders.get": false,
+      "orders.patch": false,
+      "upload.post": false,
+      "upload": true,
+      "orders": "admin",
+      "products": "admin",
+      "users": "admin",
+      "protection": "admin"
+    }
+  }
